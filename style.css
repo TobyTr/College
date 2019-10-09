@@ -1,0 +1,54 @@
+body {
+	background-image: url("campus.png");
+}
+
+/* Text styles */
+h1 {
+	background-color: dodgerblue;
+	height: 2px;
+	margin: 50px 0;
+	border: none;
+}
+p {
+	color: #008cff;
+	font-family: "Libre Baskerville", serif;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 0 0 20px 0;
+}
+.main-nav{    
+    text-align: right;
+    background-color: #686150;
+    padding-right: 5%;
+    width: 100%;
+
+}
+
+.main-nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 43px 4%;
+    margin:0 30px 0 10px;
+    font-size: 11px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 50;
+}
+
+.main-nav li a {
+	color: #f4f1bb;
+	text-decoration: none;
+	transition: all ease .33s;
+	position: relative;
+}
+
+.main-nav li a.current {
+	color: #fff;
+}
+
+.main-nav li a:hover {
+	cursor: pointer;
+	color: #fff;
+}
